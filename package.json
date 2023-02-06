@@ -1,0 +1,22 @@
+{
+  "name": "lc-resource-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ts-node ./scripts/build.prod.ts",
+    "watch": "ts-node ./scripts/build.dev.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@citizenfx/client": "latest",
+    "@citizenfx/server": "latest",
+    "@types/node": "latest",
+    "esbuild": "^0.16.17",
+    "prettier": "latest",
+    "ts-node": "latest",
+    "typescript": "latest",
+    "@overextended/oxmysql": "latest"
+  }
+}
