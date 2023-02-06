@@ -1,0 +1,11 @@
+{
+  "name": "resource-ts",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "ts-node ./scripts/build.prod.ts",
+    "watch": "ts-node ./scripts/build.dev.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}

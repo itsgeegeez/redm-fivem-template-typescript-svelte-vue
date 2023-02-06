@@ -2,7 +2,7 @@ import { build } from "esbuild";
 
 build({
   entryPoints: ["./client/index.ts"],
-  outfile: "build/client/client.js",
+  outfile: "../../build/client/client.js",
   minify: false,
   platform: "node",
   bundle: true,
@@ -21,7 +21,7 @@ build({
 
 build({
   entryPoints: ["./server/index.ts"],
-  outfile: "build/server/server.js",
+  outfile: "../../build/server/server.js",
   platform: "node",
   minify: false,
   tsconfig: "server/tsconfig.json",
